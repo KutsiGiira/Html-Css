@@ -1,1 +1,1 @@
-link the review FAQ project : html-css-rust.vercel.app
+link the review FAQ project : https://html-css-rust.vercel.app/
