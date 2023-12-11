@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Inter";
+    src:url(https://fonts.google.com/specimen/Inter);
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+    font-family: 'Inter';
+}
+.card{
+    background-color: hsl(244, 38%, 16%);
+    width: 75vw;
+    height: 55vh;
+    position: absolute;
+    transform:translate(15% , 40%) ;
+    display: flex;
+}
+.text{
+    position: relative;
+    color: white;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.insights{
+    color: hsl(277, 64%, 61%);
+}
+p{
+}
+p, .desc{
+    color:hsla(0, 0%, 100%, 0.75);
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.value{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    flex: 1;
+    background-image: linear-gradient(rgba(64, 1, 83, 0.675),rgba(64, 1, 83, 0.675)),url(image-header-desktop.jpg);
+}
