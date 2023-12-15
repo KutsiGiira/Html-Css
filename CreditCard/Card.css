@@ -74,7 +74,7 @@
 	flex-direction: column;
 }
 .top{
-	background-image: white;
+	background:transparent;
 	height: 20%;
 }
 .mid{
@@ -83,6 +83,7 @@
 }
 .bottom{
 	background-size: cover;
+	border-radius: 0px 0px 20px 20px;
 	background-color:rgba(175, 173, 173, 0.726);
 	height: 70%;
 }
