@@ -1,0 +1,157 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.page{
+	display:grid;
+	grid-template-columns: 3fr 9fr;
+	grid-template-areas: 'side main';
+	height:100vh;
+}
+.sidepage{
+	background-image: linear-gradient(#51007E, blue, #51007E);
+	filter: grayscale(30%);
+	grid-area: side;
+}
+.content{
+	background-color:white;
+	grid-area: main;
+}
+.frontcard, .backcard{
+	width: 24rem;
+	height: 14rem;
+	border-radius: 20px;
+	box-shadow: 1px 1px 50px 1px rgba(0, 0, 0, 0.322);
+}
+.frontcard{
+	background-image: linear-gradient(#3b05ff,#690bff, rgb(255, 83, 83),#3b05ff, #690bff);
+	position: absolute;
+	left:10%;
+	top:15%;
+	color: rgba(255, 255, 255, 0.87);
+	display: flex;
+	align-items: flex-end;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-areas: 'head''body''prefooter''foot';
+
+}
+.icon{
+	grid-area: head;
+}
+.material-symbols-outlined{
+	background-color: rgba(255, 255, 255, 0.884);
+	border-radius: 50%;
+	margin-left: 30px;
+	margin-top: 20px;
+	width: 50px;
+	height: 50px;
+	color:transparent;
+}
+.zeros{
+	grid-area: prefooter;
+	display: flex;
+	justify-content: center;
+	font-size: xx-large;
+	
+}
+.lastrow{
+	display: flex;
+	justify-content: space-around;
+	gap:140px;
+	grid-area: foot;
+	margin-bottom: 10px;
+	font-size: large;
+	font-weight:200;
+}
+.backcard{
+	background-color: white;
+	position: absolute;
+	left:15%;
+	top:55%;
+	display: flex;
+	flex-direction: column;
+}
+.top{
+	background-image: white;
+	height: 20%;
+}
+.mid{
+	background-color: rgb(51, 51, 51);
+	height: 30%;
+}
+.bottom{
+	background-size: cover;
+	background-color:rgba(175, 173, 173, 0.726);
+	height: 70%;
+}
+.void{
+	background-color: rgba(128, 128, 128, 0.288);
+	width: 80%;
+	height: 25%;
+	margin-left: 40px;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.threezero{
+	margin-right: 10px;
+}
+.lines{
+	display: flex;
+	justify-content: center;
+	color: rgba(71, 71, 71, 0.856);
+}
+.content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.info{
+	width: 50%;
+	height: 25rem;
+	display: flex;
+	flex-direction: column;	
+	margin-left: 13rem;
+	margin-top: 8rem;
+}
+.namenumber{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+label{
+	color: #2a0141;
+	letter-spacing: 4px;
+}
+.namenumber > label{
+	margin-bottom: 10px;
+}
+input{
+	border: rgba(0, 0, 0, 0.514) 1px solid;
+	width: 70%;
+	margin-bottom: 10px;
+	margin-left: 3%;
+	padding: 3px;
+	border-radius: 5px;
+}
+.month > input{
+	width: 100px;
+}
+#month{
+	font-size: small;
+}
+button{
+	background-color: #2a0141;
+	color: white;
+	height: 2.5rem;
+	width: 75%;
+	margin-top: 10%;
+	border-radius: 5px;
+}
+.date{
+	display: flex;
+	justify-content: space-between;
+	width: 410px;
+}
