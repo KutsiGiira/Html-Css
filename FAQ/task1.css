@@ -6,7 +6,6 @@
 body{
     font-family: 'WorkSans';
     background-image:url(bg.svg);
-    background-size:cover;
     background-repeat: no-repeat;
     background-color:rgba(220,189,246, 0.3);
 
