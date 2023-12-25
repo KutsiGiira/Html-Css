@@ -1,0 +1,82 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+main{
+    width: 20rem;
+    height: fit-content;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 17%;
+    box-shadow: 8px 8px 0px 0px black;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    width: fit-content;
+    height: 180px;
+    border-radius:15px;
+    margin: 10px;
+}
+
+.content{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 15rem;
+}
+
+.learning{
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    font-weight: bolder;
+    padding: 6px;
+    border-radius: 3px;
+    width: fit-content;
+}
+h4:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.text{
+    color: rgba(0, 0, 0, 0.412);
+}
+
+.date{
+    font-size: small;
+}
+.name{
+    display: flex;
+    height: fit-content;
+    height: 10rem;
+    margin-bottom: 60px;
+    gap: 0px;
+}
+
+.pfp{
+    width: 65px;
+    height: 70px;
+    background-image: url(image-avatar.webp);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.nameofg{
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 30px;
+    width: 150px;
+    font-size: larger;
+    height: fit-content;
+    margin-left: -60px;
+    font-size: smaller;
+    font-weight: bolder;
+
+}
