@@ -1,0 +1,110 @@
+*{
+    margin : 0px;
+    padding:0px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    border-bottom: grey solid 1px;
+
+}
+#best{
+    font-weight: bold;
+}
+#books{
+    color: blue;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+li > a{
+    text-decoration: none;
+}
+
+.login{
+    background-color: #39a0fd;
+    padding: 5px 25px;
+    color: white;
+}
+.home{
+    display: flex;
+    padding: 10%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.left{padding: 15%;
+    font-size: xx-large;
+  }   
+
+#chkel{
+    color:#39a0fd;
+}
+p{
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.404) ;
+}
+.Button{
+    background-color: #39a0fd;
+    padding: 10px 25px;
+    color: white;
+    border: transparent solid 1px;
+    font-size: x-large;
+}
+.Button a{color: white;
+     text-decoration: none;
+   
+    }
+
+    .books{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .title{
+        text-transform: uppercase;
+        position: relative;
+        font-size: 25px;
+    }
+    .title :before{
+        position: absolute;
+        left: 10px;
+        bottom: 0px;
+        width: 100%;
+        height: 5px;
+        border-radius: 6px;
+    }
+    .title :after{
+        position: absolute;
+        top: 0px;
+        bottom: -10px;
+        width: 100;
+        height: 5px;
+        border-radius: 6px;
+    }
+    .image1{
+        margin: 100px;
+        padding: 0;
+        display: flex;
+        flex-wrap:nowrap ;
+        border: black 1px solid;
+        width: 100%;
+
+    }
+    .image2{
+        margin: 100px;
+        padding: 0;
+        display: flex;
+        flex-wrap:nowrap ;
+        border: black 1px solid;
+        width: 100%;
+    }
+
