@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    position: absolute;
+    z-index: 1;
+    padding: 70px 55px;
+    border-radius: 50%;
+    background:white;
+    color:brown;
+    font-weight: bolder;
+    border: rgba(0, 0, 0, 0.041) solid 1px;
+}
+.under{
+    background:linear-gradient(133deg,white 90px, brown 50px);
+    width: 100px;
+    height: 180px;
+    border-radius: 50%;
+    transform: rotate(360deg); 
+    animation: rotation 1s linear infinite ;
+}
+
+@keyframes  rotation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
