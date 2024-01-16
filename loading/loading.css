@@ -17,18 +17,18 @@ main{
     background:white;
     color:brown;
     font-weight: bolder;
-    border: rgba(0, 0, 0, 0.041) solid 1px;
 }
 .under{
-    background:linear-gradient(133deg,white 90px, brown 50px);
-    width: 100px;
-    height: 180px;
-    border-radius: 50%;
+    background: linear-gradient(to left, brown 10px, white 90px);
+    width: 170px;
+    height: 170px;
+    border-radius: 60%;
     transform: rotate(360deg); 
-    animation: rotation 1s linear infinite ;
+    animation: rotation 1s linear infinite;
+    position: relative;
 }
 
-@keyframes  rotation{
+@keyframes rotation{
     from{
         transform: rotate(0deg);
     }
