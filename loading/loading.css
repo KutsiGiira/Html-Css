@@ -2,29 +2,34 @@
     margin: 0px;
     padding: 0px;
 }
-
-main{
+body{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
 .main{
     position: absolute;
     z-index: 1;
-    padding: 70px 55px;
+    padding: 76px 50px;
     border-radius: 50%;
-    background:white;
-    color:brown;
+    color:purple;
     font-weight: bolder;
 }
 .under{
-    background: linear-gradient(to left, brown 10px, white 90px);
-    width: 170px;
-    height: 170px;
-    border-radius: 60%;
+    box-shadow: 0px 5px 5px 0px purple;
+    border-radius: 50%;
+    padding: 76px;
     transform: rotate(360deg); 
-    animation: rotation 1s linear infinite;
+    animation: rotation 2s linear infinite;
     position: relative;
 }
 
